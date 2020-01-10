@@ -1,0 +1,26 @@
+From 64452244419d9b77ef62d4971bad5cdaa4dd3dfc Mon Sep 17 00:00:00 2001
+From: Kamil Dudka <kdudka@redhat.com>
+Date: Tue, 28 May 2013 15:24:19 +0200
+Subject: [PATCH 3/3] Document the --poslog (-P) option in nano.1 man page.
+
+---
+ doc/man/nano.1 |    3 +++
+ 1 files changed, 3 insertions(+), 0 deletions(-)
+
+diff --git a/doc/man/nano.1 b/doc/man/nano.1
+index 4d4d67a..c4e4782 100644
+--- a/doc/man/nano.1
++++ b/doc/man/nano.1
+@@ -99,6 +99,9 @@ Disable automatic conversion of files from DOS/Mac format.
+ .B \-O (\-\-morespace)
+ Use the blank line below the titlebar as extra editing space.
+ .TP
++.B \-P (\-\-poslog)
++Log & read location of cursor position.
++.TP
+ .B \-Q \fIstr\fP (\-\-quotestr=\fIstr\fP)
+ Set the quoting string for justifying.  The default is
+ "\fI^([\ \\t]*[#:>\\|}])+\fP" if extended regular expression support is
+-- 
+1.7.1
+
