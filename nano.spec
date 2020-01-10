@@ -1,7 +1,7 @@
 Summary:         A small text editor
 Name:            nano
 Version:         2.3.1
-Release:         10%{?dist}
+Release:         8%{?dist}
 License:         GPLv3+
 Group:           Applications/Editors
 URL:             http://www.nano-editor.org
@@ -91,12 +91,6 @@ exit 0
 %{_datadir}/nano
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.3.1-10
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.3.1-9
-- Mass rebuild 2013-12-27
-
 * Fri Aug 09 2013 Kamil Dudka <kdudka@redhat.com> - 2.3.1-8
 - document the --poslog (-P) option in nano.1 man page
 
